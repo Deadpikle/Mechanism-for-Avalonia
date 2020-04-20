@@ -469,7 +469,7 @@
         <Panel x:Name="PART_ButtonArea">
           <Border x:Name="BackgroundBorder" Background="{TemplateBinding Background}" BorderBrush="{TemplateBinding BorderBrush}" BorderThickness="{TemplateBinding BorderThickness}">
             <DockPanel HorizontalAlignment="Stretch" VerticalAlignment="Stretch">
-              <Path Data="M 0 0 L 4 4 L 8 0 Z" Margin="4,0" Fill="{TemplateBinding Foreground}" DockPanel.Dock="Right" VerticalAlignment="Center"/>
+              <Path x:Name="IconPath" Data="M 0 0 L 4 4 L 8 0 Z" Margin="8,0" Fill="{TemplateBinding Foreground}" DockPanel.Dock="Right" VerticalAlignment="Center"/>
               <DockPanel x:Name="ContentIconPanel" HorizontalAlignment="{TemplateBinding HorizontalContentAlignment}" VerticalAlignment="{TemplateBinding VerticalContentAlignment}" Margin="{TemplateBinding Padding}">
                 <ContentPresenter Name="IconPresenter" Content="{Binding Path=(mecore:AttachedIcon.Icon), RelativeSource={RelativeSource Mode=TemplatedParent}}" DockPanel.Dock="Left" VerticalAlignment="{TemplateBinding VerticalContentAlignment}"/>
                 <Rectangle Name="IconGapRect" DockPanel.Dock="Left">
