@@ -20,9 +20,9 @@
     <None Remove="ThemeDemoWindow.xaml" />
   </ItemGroup>
   <ItemGroup>
-    <PackageReference Include="Avalonia" Version="0.9.999-cibuild0006978-beta" />
-    <PackageReference Include="Avalonia.Diagnostics" Version="0.9.999-cibuild0006978-beta" />
-    <PackageReference Include="Avalonia.Desktop" Version="0.9.999-cibuild0006978-beta" />
+    <PackageReference Include="Avalonia" Version="0.9.999-cibuild0009585-beta" />
+    <PackageReference Include="Avalonia.Diagnostics" Version="0.9.999-cibuild0009585-beta" />
+    <PackageReference Include="Avalonia.Desktop" Version="0.9.999-cibuild0009585-beta" />
   </ItemGroup>
   <ItemGroup>
     <EmbeddedResource Include="ThemeDemoWindow.xaml">
