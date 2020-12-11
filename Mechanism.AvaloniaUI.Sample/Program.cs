@@ -2,7 +2,6 @@
 using Avalonia;
 using Avalonia.Dialogs;
 using Avalonia.Controls.ApplicationLifetimes;
-using Avalonia.Logging.Serilog;
 
 namespace Mechanism.AvaloniaUI.Sample
 {
